@@ -1,7 +1,3 @@
-BIEN-5510_Project
-
-
-
 Magnetic Resonance Image Reconstruction Project
 
 ReconMain.m - Performs MR image reconstruction on a raw data file (Pfile).
