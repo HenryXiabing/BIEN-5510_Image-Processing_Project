@@ -4,6 +4,14 @@ ReconMain.m - Performs MR image reconstruction on a raw data file (Pfile).
 
 ReconZIP4.m - Performs MR image reconstruction on a raw data file & uses zero filling to interpolate by 4.
 
+ReconZIP4_nograd.m -  Performs MR image reconstruction on a raw data file & uses zero filling to interpolate by 4 with no Gradwarp correction applied.
+
+Recon_512_Gradwarp.m - Performs MR image reconstruction on a raw data file (Pfile) & uses zero filling to interpolate by 2.
+
+Recon_2048_Gradwarp.m - Performs 2048×2048 MR image reconstruction on a raw data file with Gradwarp correction, using zero-padding and upsampling for interpolation.
+
+Recon_2048_NoGradwarp.m - Performs 2048×2048 MR image reconstruction on a raw data file without Gradwarp, using zero-padding and upsampling for interpolation.
+
 carboy - MR raw data file (Pfile) for a 48 cm field of view scan of a carboy filled with copper sulfate solution.
 
 dqa256 - MR raw data file (Pfile) for a 24 cm field of view scan of the DQA3 phantom.
