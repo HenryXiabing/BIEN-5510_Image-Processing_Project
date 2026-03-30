@@ -8,6 +8,10 @@ Magnetic Resonance Image Reconstruction Project
 
   Recon_512_Gradwarp.m - Performs MR image reconstruction on a raw data file (Pfile) & uses zero filling to interpolate by 2.
 
+  Recon_1024_Gradwarp.m - Performs 1024×1024 MR image reconstruction on a raw data file with Gradwarp correction, using zero-padding and upsampling for interpolation.
+
+  Recon_1024_NoGradwarp.m - Performs 1024×1024 MR image reconstruction on a raw data file without Gradwarp, using zero-padding and upsampling for interpolation.
+
   Recon_2048_Gradwarp.m - Performs 2048×2048 MR image reconstruction on a raw data file with Gradwarp correction, using zero-padding and upsampling for interpolation.
 
   Recon_2048_NoGradwarp.m - Performs 2048×2048 MR image reconstruction on a raw data file without Gradwarp, using zero-padding and upsampling for interpolation.
